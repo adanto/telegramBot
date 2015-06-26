@@ -2,6 +2,7 @@
   "name": "telegram-bot-api",
   "description": "Node.js module for Telegram Bot API (https://core.telegram.org/bots/api)",
   "version": "0.1.0",
+  "scripts" : { "start" : "node server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mast/telegram-bot-api.git"
