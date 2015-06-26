@@ -1,4 +1,4 @@
-var telegram = require('telegram-bot-api');
+var telegram = require('./lib/telegram-bot');
 
 var api = new telegram({
 	token: '122775800:AAEh5KYx4GJ4AiinpH96HaWCogHHPF26syk'
