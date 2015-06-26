@@ -32,7 +32,7 @@ function doIt(){
 			var guau = "";
 
 
-			if('text' in data[data.length - 1]){
+			if(true){
 				for(var i = 0; i < data[data.length - 1].message.text.length / 4; i++){
 					guau += "guau! ";
 				}
@@ -43,7 +43,7 @@ function doIt(){
 
 				api.sendMessage(param, function(err, data) {});
 			}
-			
+
 			a.offset = data[data.length - 1].update_id;
 		}
 	})

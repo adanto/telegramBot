@@ -32,7 +32,7 @@ function doIt(){
 			var guau = "";
 
 
-			if('text' in data[data.length - 1]){
+			if('text' in data[data.length - 1].message){
 				for(var i = 0; i < data[data.length - 1].message.text.length / 4; i++){
 					guau += "guau! ";
 				}

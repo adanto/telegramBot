@@ -2,7 +2,9 @@
   "name": "telegram-bot-api",
   "description": "Node.js module for Telegram Bot API (https://core.telegram.org/bots/api)",
   "version": "0.1.0",
-  "scripts" : { "start" : "node index.js" },
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mast/telegram-bot-api.git"
@@ -16,10 +18,7 @@
     "bot",
     "api"
   ],
-  "author": {
-    "name": "Max Stepanov",
-    "email": "mast@imast.ru"
-  },
+  "author": "Max Stepanov <mast@imast.ru>",
   "license": "MIT",
   "dependencies": {
     "node-rest-client": "1.5.1"
@@ -28,7 +27,6 @@
     "url": "https://github.com/mast/telegram-bot-api/issues"
   },
   "homepage": "https://github.com/mast/telegram-bot-api",
-  "_id": "telegram-bot-api@0.1.0",
   "_shasum": "dda958477ff3017cea7bf690b5d3696c2409d3af",
   "_from": "telegram-bot-api@",
   "_npmVersion": "1.4.9",
@@ -37,15 +35,15 @@
     "email": "mast@imast.ru"
   },
   "maintainers": [
-    {
-      "name": "maxxie",
-      "email": "mast@imast.ru"
-    }
+    "maxxie <mast@imast.ru>"
   ],
   "dist": {
     "shasum": "dda958477ff3017cea7bf690b5d3696c2409d3af",
     "tarball": "http://registry.npmjs.org/telegram-bot-api/-/telegram-bot-api-0.1.0.tgz"
   },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/telegram-bot-api/-/telegram-bot-api-0.1.0.tgz"
+  "directories": {
+    "example": "examples"
+  },
+  "_resolved": "https://registry.npmjs.org/telegram-bot-api/-/telegram-bot-api-0.1.0.tgz",
+  "devDependencies": {}
 }
